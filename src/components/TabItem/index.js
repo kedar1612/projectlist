@@ -1,10 +1,10 @@
 import './index.css'
 
 const TabItem = props => {
-  const {tabDetails, updateActiveTabId, isActive} = props
+  const {tabDetails, updateActiceTabId, isActive} = props
   const {tabId, displayText} = tabDetails
   const onTabItem = () => {
-    updateActiveTabId(tabId)
+    updateActiceTabId(tabId)
   }
   const activeClassName = isActive ? 'active-tab-btn' : ''
   return (
